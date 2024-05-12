@@ -1,0 +1,24 @@
+"info": {
+		"_postman_id": "74555893-d096-411b-b6f8-d4ee5ca1a875",
+		"name": "restful-booker(peptenar)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33960653"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "d0c3c78aec7e23b",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
